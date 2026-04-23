@@ -1,4 +1,6 @@
 from fastapi import FastAPI, UploadFile, HTTPException, status
+import os
+from groq import Groq
 
 app = FastAPI(
     title="Files Resume Api"
